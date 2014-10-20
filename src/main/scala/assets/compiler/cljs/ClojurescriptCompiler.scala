@@ -6,7 +6,7 @@ import play.PlayExceptions._
 import sbt._
 
 
-object ClojureScriptCompiler {
+object ClojurescriptCompiler {
   val out = IO.createTemporaryDirectory
 
   def compile(src: File, options: Seq[String]): (String, Option[String], Seq[File]) = {
